@@ -1,3 +1,13 @@
 .navigation {
-    background-color: lightblue
+    background: #FAF5EF;
+    position: relative;
+    display: flex;
 }
+.logo {
+    background: #FAF5EF;
+    position: absolute;
+    background-image: url("..images/iou-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

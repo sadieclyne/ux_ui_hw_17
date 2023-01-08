@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="index1.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+
+    <!--Header-->
+        <header class="navigation">
+            <div class="inline-block logo">
+                <img src="images/iou-logo.png" alt="IOU Foundation Logo">
+            </div>
+            <nav class="inline-block">
+                <ul class="nav-tabs">
+                    <li class="inline-block about-tab">About Us</li>
+                    <li class="inline-block support-tab">Support Us</li>
+                    <li class="inline-block news-tab">News & Events</li>
+                    <li class="inline-block contact-tab">Contact</li>
+                    <li class="inline-block profile-tab"><img id="profile-image" src="images/User.png"></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!--Contact Form-->
+    <section class="contact-form">
+        <h1>Leave Us A Note!</h1>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Sarah Gardner" required><br>
+            <input type="email" id="email" name="email" placeholder="sarah.gardner@gmail.com"><br>
+            <div class="radio-inquiry-options">
+                <input type="radio" id="volunteer" name="reason" value="Volunteer Inquiry">
+                <label for="volunteer" id="volunteer-label">Volunteer Inquiry</label><br>
+                <input type="radio" id="donation" name="reason" value="Donation Inquiry">
+                <label for="donation">Donation Inquiry</label><br>
+                <input type="radio" id="sponsorship" name="reason" value="Sponsorship Inquiry">
+                <label for="sponsorship">Sponsorship Inquiry</label><br>
+                <input type="radio" id="catering" name="reason" value="Catering Inquiry">
+                <label for="catering">Catering Inquiry</label><br>
+                <input type="radio" id="other" name="reason" value="Other">
+                <label for="other">Other</label><br>
+            </div>
+            <input type="text" id="comment" name="comment" placeholder="Please leave a comment."><br>
+            <input type="submit" id="submit" value="Send">
+        </form>
+    </section>
+
+    <!--F ooter-->
+    <footer>
+        <div class="inline-block contact">
+            <button>Contact Us</button>
+            <p>PO Box 4138<br>Cedar Park, Texas 78603<br><strong>info@theioufoundation.org</strong></p>
+        </div>
+        <div class="inline-block general">
+            <h4>The IOU Foundation</h4>
+        <ul>
+            <li class="inline-block"><img src="images/facebook.png" alt="Facebook Link"></li>
+            <li class="inline-block"><img src="images/youtube.png" alt="Youtube Link"></li>
+            <li class="inline-block"><img src="images/instagram.png" alt="Instagram Link"></li>
+        </ul>
+        <p id="trademark">The IOU Foundation is a Registered Trademark of<br>The IOU FOundation 501(c)(3). All Rights Reserved.</p>
+        </div>
+        <div class="inline-block action-buttons">
+            <button>Donate</button><br>
+            <button>Sponsor</button><br>
+            <button>Volunteer</button><br>
+        </div>
+    </footer>
+    </body>
+</html>
